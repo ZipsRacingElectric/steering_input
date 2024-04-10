@@ -37,7 +37,7 @@ int main(void)
             // Will change away from place holder once I test the button being pressed
             struct CAN_MSG_OBJ txCanMsg;
             // Fill the CAN_MSG_OBJ structure with your data
-            txCanMsg.msgId = 0x123; // CAN message ID
+            txCanMsg.msgId = 0x223; // CAN message ID
             txCanMsg.field.dlc = 8; // Data Length Code: number of bytes in the message
             txCanMsg.data[0] = 0x01; // Data bytes of the CAN message
             txCanMsg.data[1] = 0x02;
